@@ -1,0 +1,89 @@
+🔍 Начинаем анализ проекта в /home/and/AndroidStudioProjects/MyMessenger...
+
+=== ОБЩАЯ ИНФОРМАЦИЯ ===
+Имя проекта: MyMessenger
+Версия Gradle: 8.6
+Версия Android Gradle Plugin: не определена
+
+=== АНАЛИЗ SETTINGS.GRADLE.KTS ===
+✅ JitPack настроен
+✅ Google репозиторий настроен
+
+=== АНАЛИЗ ЗАВИСИМОСТЕЙ ===
+✅ WebRTC зависимость найдена
+
+=== АНАЛИЗ MANIFEST ===
+✅ Разрешение CAMERA присутствует
+✅ Разрешение INTERNET присутствует
+✅ Разрешение RECORD_AUDIO присутствует
+
+=== СТРУКТУРА ПРОЕКТА ===
+.
+./app
+./app/libs
+./app/src
+./app/src/main
+./build
+./build/kotlin
+./build/kotlin/sessions
+./.gradle
+./gradle
+./.gradle/7.2
+./.gradle/7.2/dependencies-accessors
+./.gradle/7.2/fileChanges
+./.gradle/7.2/fileHashes
+./.gradle/7.2/vcsMetadata-1
+./.gradle/8.4
+./.gradle/8.4/checksums
+./.gradle/8.4/dependencies-accessors
+./.gradle/8.4/executionHistory
+./.gradle/8.4/fileChanges
+./.gradle/8.4/fileHashes
+./.gradle/8.4/vcsMetadata
+./.gradle/8.6
+./.gradle/8.6/checksums
+./.gradle/8.6/dependencies-accessors
+./.gradle/8.6/executionHistory
+./.gradle/8.6/fileChanges
+./.gradle/8.6/fileHashes
+./.gradle/8.6/vcsMetadata
+./.gradle/9.0-milestone-1
+./.gradle/9.0-milestone-1/checksums
+./.gradle/9.0-milestone-1/executionHistory
+./.gradle/9.0-milestone-1/expanded
+./.gradle/9.0-milestone-1/fileChanges
+./.gradle/9.0-milestone-1/fileHashes
+./.gradle/9.0-milestone-1/vcsMetadata
+./.gradle/buildOutputCleanup
+./.gradle/checksums
+./.gradle/kotlin
+./.gradle/kotlin/errors
+./.gradle/kotlin/sessions
+./.gradle/vcs-1
+./gradle/wrapper
+./.idea
+./.idea/caches
+
+=== ТЕСТ СБОРКИ ===
+❌ Ошибки при попытке сборки:
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/home/and/AndroidStudioProjects/MyMessenger/app/build.gradle.kts' line: 1
+
+* What went wrong:
+Plugin [id: 'com.android.application'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Plugin Repositories (plugin dependency must include a version number for this source)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 684ms
+
+Анализ завершен. Результаты сохранены в log.txt

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410692926947",
+    "project_id": "mymessenger-ru",
+    "storage_bucket": "mymessenger-ru.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410692926947:android:5b9eb30a16afd7b9a674d6",
+        "android_client_info": {
+          "package_name": "com.example.mymessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFxaIH7jCxqccKsDFjr5uosPXt4BhDxGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

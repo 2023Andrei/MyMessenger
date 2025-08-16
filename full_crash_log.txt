@@ -1,0 +1,163 @@
+--------- beginning of main
+08-14 23:58:55.530  2551  2557 E IOManager: open /proc/iomanager/activity error, errno:2
+08-14 23:58:55.539   777   811 I libPerfCtl: xgfGetFPS pid:1925 fps:-1
+08-14 23:58:55.662 26712 26712 D AVStageFactory: createInstance(64bit): createVendorAVFactory success!
+08-14 23:58:55.663 26712 26712 D AVStageUtils: createInstance(64bit): createVendorAVUtils success!
+08-14 23:58:55.663 26712 26712 D AVStageFactory: createInstance(64bit): createVendorAVFactory success!
+08-14 23:58:55.674 26712 26712 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+08-14 23:58:55.695 26712 26712 I app_process: MMAP_TRYLOCK is not supported in uffd addr:0x7466a5c000 page-size:4096
+08-14 23:58:55.701 26712 26712 I AndroidRuntime: Using default boot image
+08-14 23:58:55.702 26712 26712 I AndroidRuntime: Leaving lock profiling enabled
+08-14 23:58:55.702 26712 26712 W libc    : Access denied finding property "odsign.verification.success"
+08-14 23:58:55.700 26712 26712 W app_process: type=1400 audit(0.0:276359): avc: denied { read } for name="u:object_r:odsign_prop:s0" dev="tmpfs" ino=241 scontext=u:r:shell:s0 tcontext=u:object_r:odsign_prop:s0 tclass=file permissive=0 app=com.bitkeep.wallet
+08-14 23:58:55.708 26712 26712 W app_process: ART APEX data files are untrusted.
+08-14 23:58:55.711 26712 26712 I app_process: Using CollectorTypeCMC GC.
+08-14 23:58:55.713 26712 26712 E app_process: Error reading named image component header for /system/framework/boot.art, error: Image header from "/system/framework/arm64/boot.art" is invalid
+08-14 23:58:55.713 26712 26712 E app_process: Could not create image space with image file '/system/framework/boot.art!/apex/com.android.art/etc/boot-image.prof:/system/framework/boot-framework.art!/system/etc/boot-image.prof'. Attempting to fall back to imageless running. Error was: Image header from "/system/framework/arm64/boot.art" is invalid
+08-14 23:58:55.714 26712 26712 W app_process: Bump pointer space is not aligned to 2048KB. This can lead to longer stop-the-world pauses for compaction
+08-14 23:58:55.852 10715 10794 I dtpi    : (REDACTED) #onAudioData: %s bytes, getAudioReadSize %s
+08-14 23:58:55.955 10715 10721 I hbox:interacto: Background concurrent mark compact GC freed 31MB AllocSpace bytes, 4(2480KB) LOS objects, 75% free, 11MB/44MB, paused 266us,2.122ms total 122.938ms
+08-14 23:58:56.216  2082  2082 I OtherSimPSListener: mOthersign:2subid :2
+08-14 23:58:56.232  1925  2019 I NetworkController.MobileSignalController(2): isImsOverWfc = false, mDisableWfc = false, mHideWfcInCsCall = false, isImsOverVoice = false, isLteNetWork = true, mCurrentState.imsRegState=1, isNrNetWork = false, isVoNrEnabledByUser = true, isEnableSettingVo5G = false, showVo5gForVonr = false, showVo4gForVolte = false, mCurrentState.imsRegState=1
+08-14 23:58:56.234  1925  1925 D StatusBarSignalPolicy: state.show = falsestate.mMobileVolteId = 0 subId = 2
+08-14 23:58:56.348 26712 26712 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+--------- beginning of system
+08-14 23:58:56.353  1490  1490 I MWN     : onSignalStrengthsChanged...
+08-14 23:58:56.354  1490  1490 I MWN     : network type = 1
+08-14 23:58:56.354  1490  1490 I MWN     : Write 0 to node. type=Wi-Fi mSimExist=true mFlightMode=false
+08-14 23:58:56.355  1490  1490 I MWN     : write the value:0 to node successfully.
+08-14 23:58:56.356  2082  2082 I TranPhoneSwitcher: mDefaultsign:2subid :1
+08-14 23:58:56.370  1925  2019 I NetworkController.MobileSignalController(1): isImsOverWfc = false, mDisableWfc = false, mHideWfcInCsCall = false, isImsOverVoice = false, isLteNetWork = true, mCurrentState.imsRegState=1, isNrNetWork = false, isVoNrEnabledByUser = false, isEnableSettingVo5G = false, showVo5gForVonr = false, showVo4gForVolte = false, mCurrentState.imsRegState=1
+08-14 23:58:56.371  1925  1925 D StatusBarSignalPolicy: state.show = falsestate.mMobileVolteId = 0 subId = 1
+08-14 23:58:56.379 26712 26712 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+08-14 23:58:56.379 26712 26712 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+08-14 23:58:56.379 26712 26712 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt68l.dat
+08-14 23:58:56.388 26712 26712 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+08-14 23:58:56.392 26712 26712 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+08-14 23:58:56.531  2551  2557 E IOManager: open /proc/iomanager/activity error, errno:2
+08-14 23:58:56.539   777   811 I libPerfCtl: xgfGetFPS pid:1925 fps:-1
+08-14 23:58:56.557 26712 26712 W libc    : Access denied finding property "ro.vendor.tran.hardware"
+08-14 23:58:56.557 26712 26712 W libc    : Access denied finding property "ro.vendor.tran.cpu_model"
+08-14 23:58:56.552 26712 26712 W main    : type=1400 audit(0.0:276360): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=404 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=com.bitkeep.wallet
+08-14 23:58:56.552 26712 26712 W main    : type=1400 audit(0.0:276361): avc: denied { read } for name="u:object_r:vendor_exported_default_prop:s0" dev="tmpfs" ino=404 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_exported_default_prop:s0 tclass=file permissive=0 app=com.bitkeep.wallet
+08-14 23:58:56.651 26712 26712 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+08-14 23:58:56.654 26712 26712 W Monkey  : args: [-p, com.example.mymessenger, -c, android.intent.category.LAUNCHER, 1]
+08-14 23:58:56.655 26712 26712 W Monkey  :  arg: "-p"
+08-14 23:58:56.655 26712 26712 W Monkey  :  arg: "com.example.mymessenger"
+08-14 23:58:56.656 26712 26712 W Monkey  :  arg: "-c"
+08-14 23:58:56.656 26712 26712 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+08-14 23:58:56.656 26712 26712 W Monkey  :  arg: "1"
+08-14 23:58:56.656 26712 26712 W Monkey  : data="com.example.mymessenger"
+08-14 23:58:56.656 26712 26712 W Monkey  : data="android.intent.category.LAUNCHER"
+08-14 23:58:56.851  1874  1874 I WifiHAL : Get link layer stats
+08-14 23:58:56.851  1874  1874 I WifiHAL : GetLinkStatsCommand::create
+08-14 23:58:56.851  1874  1874 D android.hardware.wifi@1.0-service-lazy: WifiRequest::create vendor command to iface 37, vendor_id=0x1a11, subcmd=0x1200, res=0
+08-14 23:58:56.852  1874  1874 I android.hardware.wifi@1.0-service-lazy: WifiCommand::requestResponse err=-14
+08-14 23:58:56.852  1874  1874 I WifiHAL : wifi_get_link_stats: result=-1
+08-14 23:58:56.853  1490  1786 E WifiVendorHal: getWifiLinkLayerStats_1_5_Internal(l.1191) failed {.code = ERROR_UNKNOWN, .description = unknown}
+08-14 23:58:56.868 19659 16434 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+08-14 23:58:56.877 26712 26712 W System  : ClassLoader referenced unknown path: /system/framework/mediatek-cta.jar
+08-14 23:58:56.877 26712 26712 W CtaManagerFactory: CtaManagerFactoryImpl not found
+08-14 23:58:56.883 19659 30202 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+08-14 23:58:56.892 19659 30202 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+08-14 23:58:56.902  1925  2045 E GED     : ged_gpu_timestamp: GED_ERROR_FAIL eErr = 0, -2
+08-14 23:58:56.911   803   803 I BufferQueueProducer: [StatusBar#0](this:0xb400007a1dcd8048,id:-1,api:0,p:-1,c:803) queueBuffer: fps=0.63 dur=3188.48 max=3039.16 min=149.32
+08-14 23:58:56.917  1490  1536 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{7962cbc u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{1fa8445 26712 (unknown name)/2000/u-1 remote:1d6f08e}: process gone or crashing
+08-14 23:58:56.919   763   763 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.627274,dur:3188.40,max:3038.26,min:150.14  
+08-14 23:58:56.923   803   803 I SurfaceFlinger: operator()(), mtkRenderCntDebug 302218, screenshot (org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity#0)
+08-14 23:58:56.991  1490  1966 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.mymessenger/.MainActivity} from uid 2000
+08-14 23:58:56.994  1490  1966 I ActivityTaskManager: TaskLaunchParamsModifier: pkgName = null
+08-14 23:58:56.994  1490  1966 I ActivityTaskManager: TaskLaunchParamsModifier: pkgName = null
+08-14 23:58:56.995  1490  1966 W ActivityTaskManager: Can't find TaskDisplayArea to determine support for multi window. Task id=64688 attached=false
+08-14 23:58:56.997  1490  1966 I ActivityTaskManager: TaskLaunchParamsModifier: pkgName = null
+08-14 23:58:56.999  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 11200; state: DISABLED
+08-14 23:58:57.000  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 11200; state: DISABLED
+08-14 23:58:57.001  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 11200; state: DISABLED
+08-14 23:58:57.003  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 11200; state: DISABLED
+08-14 23:58:57.004  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 11200; state: DISABLED
+08-14 23:58:57.013   777   785 I mtkpower@impl: [setMode] type:5, enabled:1
+08-14 23:58:57.014  1490  1966 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 11200; state: DISABLED
+08-14 23:58:57.014   777   827 I libPowerHal: [perfLockAcq] idx:48 hdl:613323 hint:11 pid:777 duration:30000 lock_user:mtkpower@1.0-se => ret_hdl:613323
+08-14 23:58:57.016  1490  1966 I PowerHalWrapper: <amsBoostResume> last:org.kde.kdeconnect_tp, next:com.example.mymessenger 
+08-14 23:58:57.019   777   827 I libPowerHal: [setClusterFreq] LAUNCH: sysfs_freq set cpu freq: 2000000 -1 2200000 -1 
+08-14 23:58:57.019  1490  1966 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.019   777   827 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+08-14 23:58:57.020   777   827 I libPowerHal: [PE] LAUNCH update cmd:300c000, param:15
+08-14 23:58:57.020  1490  1966 D os.FreeformLice: handleStartActivityResult Task{c0936a7 #64688 type=standard A=11200:com.example.mymessenger U=0 visible=true mode=fullscreen translucent=true sz=1} null 0
+08-14 23:58:57.021   777   827 I libPowerHal: [PE] LAUNCH update cmd:2054400, param:0
+08-14 23:58:57.021 26712 26712 I Monkey  : Events injected: 1
+08-14 23:58:57.021  3507  3543 I SmartPanel_SmartPanelService: activityCheck pkgName: com.example.mymessenger, className: com.example.mymessenger.MainActivity isResume=false isInshow =true isDrawn = false
+08-14 23:58:57.024   777   827 I libPowerHal: [PE] LAUNCH update cmd:1000000 param:0
+08-14 23:58:57.024   777   827 I libPowerHal: [perfLockRel] hdl:613312, idx:-1
+08-14 23:58:57.025   777   827 I libPowerHal: [perfLockAcq] idx:49 hdl:613324 hint:22 pid:777 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:613324
+08-14 23:58:57.025   777   827 I libPowerHal: [perfLockRel] hdl:613311, idx:-1
+08-14 23:58:57.025  1490  3163 V SettingsProvider: name : accelerometer_rotation appId : 1000 pid : 1490 pkg :android
+08-14 23:58:57.026  1490  3163 V SettingsProvider: name : user_rotation appId : 1000 pid : 1490 pkg :android
+08-14 23:58:57.026   803  2306 I SurfaceFlinger: [SF client] NEW(0xb40000792db76cd0) for (1925:com.android.systemui)
+08-14 23:58:57.027  1490  3163 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.029  1925  1993 D ViewRootImpl[mymessenger]: hardware acceleration = true, sRendererEnabled = true, forceHwAccelerated = false
+08-14 23:58:57.031  1490  3163 V SettingsProvider: name : accelerometer_rotation appId : 1000 pid : 1490 pkg :android
+08-14 23:58:57.032  1490  3163 V SettingsProvider: name : user_rotation appId : 1000 pid : 1490 pkg :android
+08-14 23:58:57.033  1490  3163 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.038   803   989 E BufferQueueDebug: [Splash Screen com.example.mymessenger#0](this:0xb400007a1debc1e8,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Splash Screen com.example.mymessenger#0'
+08-14 23:58:57.038   803   989 I BufferQueueDebug: [Splash Screen com.example.mymessenger#0](this:0xb400007a1debc1e8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(803:/system/bin/surfaceflinger)
+08-14 23:58:57.040  1490  3467 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.042  1925  1993 I BufferQueueConsumer: [](id:785000016eb,api:0,p:-1,c:1925) connect: controlledByApp=false
+08-14 23:58:57.043  1925  1993 I BLASTBufferQueue: [ViewRootImpl[mymessenger]#5867] constructor()
+08-14 23:58:57.044  1925  2045 I BufferQueueProducer: [ViewRootImpl[mymessenger]#5867(BLAST Consumer)5867](id:785000016eb,api:1,p:1925,c:1925) connect: api=1 producerControlledByApp=true
+08-14 23:58:57.048  1925  1925 D TrSystemIconView: updateResource: 66
+08-14 23:58:57.049  1925  1925 D TrSystemIconView: updateResource: 66
+08-14 23:58:57.050  1925  1925 D TrSystemIconView: updateResource: 66
+08-14 23:58:57.050  1925  1925 D TrSystemIconView: updateResource: 66
+08-14 23:58:57.052  1490  3392 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.054  1925  2045 E GED     : ged_gpu_timestamp: GED_ERROR_FAIL eErr = 0, -2
+08-14 23:58:57.055  1490  3392 I PowerHalWrapper: amsBoostNotify pid:10608,activity:org.kde.kdeconnect.UserInterface.MainActivity, package:org.kde.kdeconnect_tp, mProcessCreatePackcom.example.mymessenger 
+08-14 23:58:57.055  1490  3392 I PowerHalWrapper: state: 0 
+08-14 23:58:57.056  1490  3392 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+08-14 23:58:57.056   777   827 I libPowerHal: [perfNotifyAppState] pack:org.kde.kdeconnect_tp, act:org.kde.kdeconnect.UserInterface.MainActivity, state:0, pid:10608, uid:10351, fps:-1
+08-14 23:58:57.059  1925  2045 E GED     : ged_gpu_timestamp: GED_ERROR_FAIL eErr = 0, -2
+08-14 23:58:57.060  1490  1526 I PowerHalWrapper: amsBoostProcessCreate package:com.example.mymessenger 
+08-14 23:58:57.060  3507  3543 D Game_Utils: getWindowingModeByTask mode : 1
+08-14 23:58:57.061  1490  1526 D SBE-LaunchIdentify: SBE boost:com.example.mymessenger begin
+08-14 23:58:57.061   777   827 I libPowerHal: [perfLockAcq] idx:50 hdl:613325 hint:21 pid:777 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:613325
+08-14 23:58:57.062   777   827 I libPowerHal: [perfLockRel] hdl:612185, idx:-1
+08-14 23:58:57.062  1490  3392 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.064  3507  3543 D Game_Utils: isTheMainScreen, displayId: 0  classname = com.example.mymessenger.MainActivity
+08-14 23:58:57.064  1490  3392 W WindowManager: Changing focus from Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:490 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6065 com.android.server.wm.WindowManagerService.relayoutWindow:2663 com.android.server.wm.Session.relayout:235 
+08-14 23:58:57.064  1490  3392 D os.fingerprint: onUpdateFocusedApp oldPackageName:org.kde.kdeconnect_tp oldComponent:ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} newPackageName:null newComponent:null mFm :android.hardware.fingerprint.FingerprintManager@ff1ae52
+08-14 23:58:57.065  1925  2045 E OpenGLRenderer: EglManager::makeCurrent mED = 0xb4000071f6c76490, surface = 0x0, mEC = 0xb400007196c87b80, error = EGL_SUCCESS
+08-14 23:58:57.065  1490  1526 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 11200; state: DISABLED
+08-14 23:58:57.066  1490  1527 I WindowManager: DisplayContent w: Window{5397743 u0 org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity} Apply preferredModeId = 2
+08-14 23:58:57.066  1925  2045 I BufferQueueProducer: [ViewRootImpl[mymessenger]#5867(BLAST Consumer)5867](id:785000016eb,api:1,p:1925,c:1925) disconnect: api 1
+08-14 23:58:57.067   756 26373 W AudioALSACaptureDataProviderNormal: readThread, latency_in_s,0.000000,0.039986,0.000043, totalTime 0.040029 > logTimeout 0.022000 TIMEOUT!!
+08-14 23:58:57.067  1490  1527 I DreamAnimation:  hookAppTransitSuccess called, and doUnlockAnimation=0  mState=7
+08-14 23:58:57.068  1490  1526 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 11200; state: DISABLED
+08-14 23:58:57.068  1490  1526 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 11200; state: DISABLED
+08-14 23:58:57.068  1490  1526 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 11200; state: ENABLED
+08-14 23:58:57.068  1490  1537 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 11200; state: ENABLED
+08-14 23:58:57.069 26712 26712 I Monkey  : ## Network stats: elapsed time=46ms (0ms mobile, 0ms wifi, 46ms not connected)
+08-14 23:58:57.070 26712 26712 I app_process: System.exit called, status: 0
+08-14 23:58:57.070 26712 26712 I AndroidRuntime: VM exiting with result code 0.
+08-14 23:58:57.072  1490  1533 D DexOptExtImpl: com.example.mymessenger reason is 1 abi is arm64-v8a
+08-14 23:58:57.074  1490  1527 I WindowManager:   isAnimating=false  okToAnimate=true  win=Window{231f6fd u0 Splash Screen com.example.mymessenger}
+08-14 23:58:57.075  1925  2045 I BufferQueueProducer: [ViewRootImpl[mymessenger]#5867(BLAST Consumer)5867](id:785000016eb,api:1,p:1925,c:1925) connect: api=1 producerControlledByApp=true
+08-14 23:58:57.078   748   748 D Zygote  : Forked child process 26726
+08-14 23:58:57.079  1490  1537 I ActivityManager: Start proc 26726:com.example.mymessenger/u0a1200 for pre-top-activity {com.example.mymessenger/com.example.mymessenger.MainActivity}
+08-14 23:58:57.081   803   803 I SurfaceFlinger: operator()(), mtkRenderCntDebug 302219, screenshot (org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity#0)
+08-14 23:58:57.091  1490  1528 I mtkpower_client: perf_cus_lock_hint hint:48, dur:425
+08-14 23:58:57.092  1490  1528 I mtkpower_client: perf_cus_lock_hint, ret_hdl:613326
+08-14 23:58:57.092   777   827 I libPowerHal: [perfLockAcq] idx:51 hdl:613326 hint:48 pid:1490 duration:425 lock_user:system_server => ret_hdl:613326
+08-14 23:58:57.096  1925 18186 E BLASTBufferQueue: [ViewRootImpl[mymessenger]#5867](f:0,a:2) isEGL=1, mPendingRelease.size()=1, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+08-14 23:58:57.098  1490  1527 I WindowManager: DisplayContent w: Window{231f6fd u0 Splash Screen com.example.mymessenger} Apply preferredModeId = 2
+08-14 23:58:57.096 26726 26726 W main    : type=1400 audit(0.0:276362): avc: denied { read } for name="u:object_r:vendor_memfusion_size_prop:s0" dev="tmpfs" ino=411 scontext=u:r:untrusted_app:s0:c176,c260,c512,c768 tcontext=u:object_r:vendor_memfusion_size_prop:s0 tclass=file permissive=0 app=com.necta.wifimouse
+08-14 23:58:57.096 26726 26726 W main    : type=1400 audit(0.0:276363): avc: denied { read } for name="u:object_r:vendor_memfusion_state_prop:s0" dev="tmpfs" ino=412 scontext=u:r:untrusted_app:s0:c176,c260,c512,c768 tcontext=u:object_r:vendor_memfusion_state_prop:s0 tclass=file permissive=0 app=com.necta.wifimouse
+08-14 23:58:57.096 26726 26726 W main    : type=1400 audit(0.0:276364): avc: denied { read } for name="u:object_r:vendor_memfusion_tranlog_prop:s0" dev="tmpfs" ino=414 scontext=u:r:untrusted_app:s0:c176,c260,c512,c768 tcontext=u:object_r:vendor_memfusion_tranlog_prop:s0 tclass=file permissive=0 app=com.necta.wifimouse
+08-14 23:58:57.100 26726 26726 W main    : type=1400 audit(0.0:276365): avc: denied { read } for name="u:object_r:vendor_uxcompaction_enable_prop:s0" dev="tmpfs" ino=654 scontext=u:r:untrusted_app:s0:c176,c260,c512,c768 tcontext=u:object_r:vendor_uxcompaction_enable_prop:s0 tclass=file permissive=0 app=com.necta.wifimouse
+08-14 23:58:57.102 26726 26726 I ple.mymessenge: Late-enabling -Xcheck:jni
+08-14 23:58:57.107   803   803 I BufferQueueProducer: [org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity#0](this:0xb400007a1dde0d98,id:-1,api:0,p:-1,c:803) queueBuffer: fps=2.61 dur=20295.94 max=19428.91 min=16.03
+08-14 23:58:57.110   803   803 I SurfaceControl: ~SurfaceControl: layerId=1073845812
+08-14 23:58:57.117  3507  3543 D Game_Utils: isQSplitscreenMode mode = 1
+08-14 23:58:57.117   803   803 I BufferQueueProducer: [FramebufferSurface](this:0xb4000079cdb32410,id:-1,api:1,p:803,c:803) queueBuffer: fps=1.49 dur=21515.57 max=21177.22 min=7.23
+08-14 23:58:57.119  1490  1490 D NetworkStatusMonitor: getAllInterfaceNames network type is wifi
+08-14 23:58:57.119  1490  1490 D NetworkStatusMonitor: onNetworkTypeChanged wifi => wifi
+08-14 23:58:57.119  1490  1490 D NetworkStatusMonitor: getAllInterfaceNames network type is mobile

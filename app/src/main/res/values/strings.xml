@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyMessenger</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="logout">Logout</string>
+    <string name="chat">Chat</string>
+    <string name="call">Call</string>
+    <string name="send">Send</string>
+    <string name="enter_message">Enter message</string>
+</resources>

@@ -1,0 +1,10 @@
+jdk:
+  - openjdk11
+gradle:
+  version: 8.2
+  build: assemble
+  command: -Pgroup=com.github.webrtc-sdk -Pversion=latest assemble publishToMavenLocal
+android:
+  buildToolsVersion: "34.0.0"
+  compileSdkVersion: 34
+  targetSdkVersion: 34
