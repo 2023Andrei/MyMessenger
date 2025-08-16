@@ -5,3 +5,10 @@ allprojects {
 		mavenCentral()
 	}
 }
+
+allprojects {
+	repositories {
+		google()
+		mavenCentral()
+	}
+}
